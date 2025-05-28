@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    color: white;
+}
+.navbar h1 {
+    margin: 0;
+    font-weight: normal;
+}
+.navbar .account {
+    text-align: center;
+}
+.navbar .account a {
+    color: white;
+}
+.search-container {
+    display: flex;
+    align-items: center;
+}
+.search-container button {
+    background-color: yellow;
+}
+.shop-icon {
+    font-size: 12px;
+    cursor: pointer;
+}
+
+/* Item Card style */
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    width: auto;
+    
+    max-width: 24%;
+    box-shadow: 0 2px 3px rgb(109, 108, 108);
+    border-radius: 15px;
+    text-align: center;
+    
+}
+.card:hover{
+
+    transform: scale(1.1);
+    transition: transform .3s;
+}
+
+
+.card img {
+    width: 300px;
+    height: 250px;
+    border-radius: 12px;
+}
+
+.card .price {
+    margin: 10px 0;
+    font-size: 15px;
+    font-weight: bold;
+    color: green;
+
+
+}
+.card .price{
+
+text-align: left;
+margin-left: 10px;
+
+}
+.card h3{
+
+    text-align: left;
+    margin-left: 10px;
+    
+}
+footer{
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+}
+
+    
